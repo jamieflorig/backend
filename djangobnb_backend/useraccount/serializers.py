@@ -8,3 +8,4 @@ class UserDetailSerializer(serializers.ModelSerializer):
         fields = (
             'id', 'name', 'avatar_url'
         )
+        
